@@ -10,7 +10,6 @@ import {
 } from 'react-native';
 import Constants from 'expo-constants';
 
-import WeatherInform from './components/WeatherInform';
 import PickerList from './components/PickerList';
 
 export default class App extends React.Component {
@@ -31,16 +30,12 @@ export default class App extends React.Component {
               style={styles.fbLogo}
               source={require('./assets/fbLogo.jpg')}
             />
-            <Text style={styles.fbText}>   Continue with Facebook</Text>
+            <Text style={styles.fbText}> Continue with Facebook</Text>
           </TouchableOpacity>
         </View>
 
         <View style={styles.pickerBlock}>
-        <PickerList />
-        </View>
-
-        <View style={styles.pic}>
-        <WeatherInform />
+          <PickerList />
         </View>
       </View>
     );
@@ -98,9 +93,5 @@ const styles = StyleSheet.create({
 
   pickerBlock: {
     marginBottom: 70,
-  },
-
-  pic: {
-    marginVertical: 40,
   },
 });
