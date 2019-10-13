@@ -1,8 +1,8 @@
 # Sample Snack app
 
-How to use:
-
 Welcome to Expo!
+
+How to use:
 
 Follow the link: https://snack.expo.io/
 
